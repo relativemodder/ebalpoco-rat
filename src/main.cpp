@@ -8,7 +8,7 @@ DWORD  bufCharCount = INFO_BUFFER_SIZE;
 void runDownload(TgBot::Api api, TgBot::Message::Ptr message) {
     api.sendMessage(
         message->chat->id,
-        "Downloading file from the Telegram..."
+        "Downloading file from Telegram..."
     );
 
     if (message->document == nullptr) {
@@ -47,7 +47,7 @@ void runDownload(TgBot::Api api, TgBot::Message::Ptr message) {
 void runUpload(TgBot::Api api, TgBot::Message::Ptr message) {
     api.sendMessage(
         message->chat->id,
-        "Downloading file from the Telegram..."
+        "Downloading file from Telegram..."
     );
 
     if (message->document == nullptr) {
