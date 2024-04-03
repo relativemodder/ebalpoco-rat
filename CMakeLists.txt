@@ -32,7 +32,6 @@ set(ZLIB_INCLUDE_DIR C:/zlib)
 
 include(cmake/FindBoost.cmake)
 include(cmake/FindZLIB.cmake)
-include(cmake/FindCURL.cmake)
 
 find_package(OpenSSL REQUIRED)
 find_package(Boost COMPONENTS system REQUIRED)
